@@ -6,20 +6,13 @@
 #define F_CPU 80000000UL
 #endif
 
-// Register Direct Access Definitions
-#define SPI1CON *(volatile uint16_t *)0xBF801000
-#define SPI1BUF *(volatile uint16_t *)0xBF801004
-#define SPI1BRG *(volatile uint16_t *)0xBF801018
-
-#define TRISB *(volatile uint32_t *)0xBF886004
-#define PORTB *(volatile uint16_t *)0xBF802004
-#define LATB *(volatile uint16_t *)0xBF802010
-
+// Pin definitions
 #define SD_CS_PIN 0
 #define SD_SCK_PIN 1
 #define SD_MOSI_PIN 2
 #define SD_MISO_PIN 3
 
+// Pin masks
 #define PIN0_mask (1 << 0)
 #define PIN1_mask (1 << 1)
 #define PIN2_mask (1 << 2)
