@@ -1,0 +1,61 @@
+# MPLAB X IDE build artifacts
+dist/
+build/
+*.hex
+*.elf
+*.map
+*.xml
+*.xml.dist
+
+# MPLAB X project user-specific files
+nbproject/private/
+*.pyc
+*.svg
+*.pdf
+
+# XC32 compiler artifacts
+*.o
+*.d
+*.pre
+*.i
+*.s
+
+# Hardware pack cache
+packs/
+
+# Debug/program files
+*.gp
+*.mcs
+*.bin
+*.gcno
+*.gcda
+*.gcov
+
+# Temporary files
+tmp/
+*.tmp
+*.bak
+*~
+
+# User configuration
+local/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# MPLAB X generated files (keep source, ignore generated)
+.generated_files/
+
+# Log files
+*.log
+
+# Backup files
+*.orig
+*.rej
